@@ -1,6 +1,6 @@
 import pdfplumber
 
-with pdfplumber.open("resume-sample.pdf") as pdf:
+with pdfplumber.open("hotels-pdf.pdf") as pdf:
     for page in pdf.pages:
-        print(pdf.pages)
-        # print (page.extract_text())
+        # print(page)
+        print (page.extract_text())
