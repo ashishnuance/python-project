@@ -1,3 +1,3 @@
 import cowsay
 
-cowsay.cow("Hello Anushvi")
+cowsay.cow("Hello hi, How re you !")
